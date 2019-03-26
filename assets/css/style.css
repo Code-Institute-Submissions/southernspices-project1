@@ -44,11 +44,16 @@ h5 {
 
 /*...........................................Image slider*/
 
-.bg-img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.carousel-inner img {
+    width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 70%;
 }
 
 /*..............................................jumbotron*/
@@ -71,180 +76,214 @@ h5 {
 
 /*..........................................Menu*/
 
-.menucontainer h1 {
-    align-items: center;
-    padding-bottom: 40px;
-    font-family: Pacifico;
-    color: #ffb606;
+.menucontainer h1{
+  font-family: pacifico;
+  color: #ffb606;
+ }
+.menucontainer .row,
+.row > .column {
+  padding: 8px;
+}
+  
+
+.column {
+  float: left;
+  width: 33.3%;
 }
 
-.menucontainer h3 {
-    color: darkgreen;
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.menucontainer ul {
-    list-style-type: none;
-    padding: 0;
+
+.menucontent {
+  background-color:#fff;
+  padding: 10px;
+  text-align: center;
+ }
+.menucontent a {
+  text-decoration: none;
+  color:green;
 }
 
-.menuheader {
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
     width: 100%;
+  }
+  
+/*........................Story. & contact..............*/
 
+.container-story-contact {
+    padding: 40px;
+}
 
-    /*........................Story. & contact..............*/
-    .container-story-contact {
-        padding: 40px;
-    }
-    .page-header h2 {
-        font-family: pacifico;
-        color: #ffb606;
-    }
-    .story-row {
-        padding-bottom: 10%;
-        font-size: 1.75em;
-        line-height: 2;
-    }
+#storyhead #contacthead {
+    font-family: pacifico;
+    color: #ffb606;
+    margin-left: 15px;
+    margin-top: 15%;
+    letter-spacing: 7px;
+    padding-bottom: 30px;
+}
 
-    .story-row .contactsection h2 {
-        margin-left: 15px;
-        margin-top: 15%;
-        letter-spacing: 7px;
-        padding-bottom: 30px;
-    }
+.story-row {
+    padding-bottom: 10%;
+    font-size: 1.75em;
+    line-height: 2;
+}
 
-    .story-row .story-p {
-        font-size: .8em;
-        margin: 40px 0px 40px 0px;
-        background-color: transparent;
+.story-row .story-p {
+    font-size: .8em;
+    margin: 40px 0px 40px 0px;
+    background-color: transparent;
 
-    }
+}
 
-    .container-contact {
-        margin-bottom: 100px;
-    }
-    .contact-form {
-        margin-top: 70px;
-    }
+.container-contact {
+    margin-bottom: 100px;
+}
+
+.contact-form {
+    margin-top: 70px;
+}
 
 
 
 /*...........................Location & Video.............*/
 
-
 .container-info {
-  position: relative;
-  font-size: 1rem;
-  line-height:1.5;
-  overflow: hidden;
-  max-width:100% ;
-  padding: 1rem;
-  margin: auto;
- }
-
-.v-container{
-   align-items:center;
-   display: flex;
-   
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 1rem;
+    margin: auto;
 }
+
+.v-container {
+    align-items: center;
+    display: flex;
+
+}
+
 .video-wrap {
-  position: relative;
-  top:0;
-  left:0;
-  width:100%;
-  height: 100vh;
-  overflow:hidden;
-  z-index: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 0;
 }
 
-.video-wrap video{
-  min-width:100%;
-  min-height:100%;
+.video-wrap video {
+    min-width: 100%;
+    min-height: 100%;
 }
 
- .header-content {
-   z-index: 1;
-   position: absolute;
-   color: #D2691E;
-   margin-left: auto;
-   
- }
+.header-content {
+    z-index: 1;
+    position: absolute;
+    color: #D2691E;
+    margin-left: auto;
+
+}
 
 .header-content h1 {
-  font-size: 50px;
-  padding: 10px;
+    font-size: 50px;
+    padding: 10px;
 }
-.header-content h2{
-  font-size:40px;
-  padding:10px;
+
+.header-content h2 {
+    font-size: 40px;
+    padding: 10px;
 }
+
 .header-content p {
- font-size: 20px;
- padding: 10px;
+    font-size: 20px;
+    padding: 10px;
 }
-.header-content i{
+
+.header-content i {
     padding-left: 40px;
     margin-bottom: 5px;
-    font-size:40px;
+    font-size: 40px;
 
 }
-.location{
-    
+
+.location {
+
     position: relative;
     font-size: 13px;
     font-size: 1.3rem;
     letter-spacing: 2px;
-    color:#F02C0D;
-    padding:10px;
+    color: #F02C0D;
+    padding: 10px;
     width: 90%;
     margin: auto;
 }
-.header-content a i{
-   text-decoration: none;
-   color:#F02C0D ;
-}
-.header-content a h3{
-  text-decoration: none;
-  color:#F02C0D ;
-}
-/*........................Footer..........*/
 
+.header-content a i {
+    text-decoration: none;
+    color: #F02C0D;
+}
+
+.header-content a h3 {
+    text-decoration: none;
+    color: #F02C0D;
+}
+
+/*........................Footer..........*/
 
 .page-footer {
     width: 100%;
     height: 100px;
     margin: 0;
     padding: 0;
-    background-color:#EDDAB4;
+    background-color: #EDDAB4;
     opacity: 0.65;
     clear: both;
     position: fixed;
     left: 0;
     bottom: 0;
-    color:gray;
+    color: gray;
     text-align: center;
 }
+
 /*.........................Social links...........*/
 
-.social-icons{
-  padding-top: 20px;
-}  
-.social-icons li a i {
-  display: inline block;
-  width:30px;
-  height: 30px;
-  padding: 10px 0;
-  border-radius: 50%;
-  font-size : 20px;
-  text-align:center;
-  background:#B2D0AC;
-  color:green;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  
+.social-icons {
+    padding-top: 20px;
 }
+
+.social-icons li a i {
+    display: inline block;
+    width: 30px;
+    height: 30px;
+    padding: 10px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    background: #B2D0AC;
+    color: green;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+
+}
+
 .social-icons li a i:hover {
-  background:#ffb606;
+    background: #ffb606;
 }
