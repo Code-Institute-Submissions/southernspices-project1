@@ -118,6 +118,8 @@ body{
     padding: 40px;
 }
 .page-header h2{
+    color: #ffb606;
+    font-family: pacifico;
     margin-left: 15px;
     margin-top: 15%;
     padding-bottom: 30px;
