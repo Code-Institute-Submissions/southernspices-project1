@@ -2,23 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 html,
-body {
+body{
     height: 100%;
     width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    margin: 0;
-
-}
-
 /*...........................................Navbar*/
 
-.navbar {
+.navbar{
     float: left;
     width: 100%;
     margin: 0;
@@ -28,37 +19,37 @@ h5 {
     opacity: 0.65;
 }
 
-.navbar .navbar-toggler {
+.navbar .navbar-toggler{
     border: 0;
 }
 
-.navbar-nav li a {
+.navbar-nav li a{
     font-weight: bold;
     color: #F02C0D;
 }
 
-.navbar-nav li a:hover {
+.navbar-nav li a:hover{
     color: green;
 
 }
 
 /*...........................................Image slider*/
 
-.carousel-inner img {
+.carousel-inner img{
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-.carousel-caption {
+.carousel-caption{
     position: absolute;
     top: 70%;
 }
 
 /*..............................................jumbotron*/
 
-.jumbotron {
+.jumbotron{
     background-color: transparent;
     font-family: roboto, sans-serif;
     text-align: center;
@@ -66,7 +57,7 @@ h5 {
     font-weight: 500;
 }
 
-.jumbotron h3 {
+.jumbotron h3{
     text-align: center;
     padding-bottom: 40px;
     font-weight: 400;
@@ -77,7 +68,7 @@ h5 {
 /*..........................................Menu*/
 
 .menucontainer h1{
-  font-family: pacifico;
+  font-family: Pacifico;
   color: #ffb606;
  }
 .menucontainer .row,
@@ -86,82 +77,79 @@ h5 {
 }
   
 
-.column {
+.column{
   float: left;
   width: 33.3%;
 }
 
 
-.row:after {
+.row:after{
   content: "";
   display: table;
   clear: both;
 }
 
 
-.menucontent {
+.menucontent{
   background-color:#fff;
   padding: 10px;
   text-align: center;
  }
-.menucontent a {
+.menucontent a{
   text-decoration: none;
   color:green;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px){
   .column {
     width: 50%;
   }
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
   .column {
     width: 100%;
   }
   
 /*........................Story. & contact..............*/
 
-.container-story-contact {
+.container-story-contact{
     padding: 40px;
 }
-
-#storyhead #contacthead {
-    font-family: pacifico;
-    color: #ffb606;
+.page-header h2{
     margin-left: 15px;
     margin-top: 15%;
-    letter-spacing: 7px;
     padding-bottom: 30px;
 }
 
-.story-row {
+.story-row{
     padding-bottom: 10%;
     font-size: 1.75em;
     line-height: 2;
 }
 
-.story-row .story-p {
+.story-row .story-p{
     font-size: .8em;
     margin: 40px 0px 40px 0px;
     background-color: transparent;
 
 }
 
-.container-contact {
+.container-contact{
     margin-bottom: 100px;
 }
 
-.contact-form {
+.contact-form{
     margin-top: 70px;
 }
 
 
 
+
 /*...........................Location & Video.............*/
 
-.container-info {
+.container-info{
     position: relative;
     font-size: 1rem;
     line-height: 1.5;
@@ -171,13 +159,13 @@ h5 {
     margin: auto;
 }
 
-.v-container {
+.v-container{
     align-items: center;
     display: flex;
 
 }
 
-.video-wrap {
+.video-wrap{
     position: relative;
     top: 0;
     left: 0;
@@ -187,7 +175,7 @@ h5 {
     z-index: 0;
 }
 
-.video-wrap video {
+.video-wrap video{
     min-width: 100%;
     min-height: 100%;
 }
@@ -200,29 +188,29 @@ h5 {
 
 }
 
-.header-content h1 {
+.header-content h1{
     font-size: 50px;
     padding: 10px;
 }
 
-.header-content h2 {
+.header-content h2{
     font-size: 40px;
     padding: 10px;
 }
 
-.header-content p {
+.header-content p{
     font-size: 20px;
     padding: 10px;
 }
 
-.header-content i {
+.header-content i{
     padding-left: 40px;
     margin-bottom: 5px;
     font-size: 40px;
 
 }
 
-.location {
+.location{
 
     position: relative;
     font-size: 13px;
@@ -234,19 +222,19 @@ h5 {
     margin: auto;
 }
 
-.header-content a i {
+.header-content a i{
     text-decoration: none;
     color: #F02C0D;
 }
 
-.header-content a h3 {
+.header-content a h3{
     text-decoration: none;
     color: #F02C0D;
 }
 
 /*........................Footer..........*/
 
-.page-footer {
+.page-footer{
     width: 100%;
     height: 100px;
     margin: 0;
@@ -263,11 +251,11 @@ h5 {
 
 /*.........................Social links...........*/
 
-.social-icons {
+.social-icons{
     padding-top: 20px;
 }
 
-.social-icons li a i {
+.social-icons li a i{
     display: inline block;
     width: 30px;
     height: 30px;
@@ -284,6 +272,6 @@ h5 {
 
 }
 
-.social-icons li a i:hover {
+.social-icons li a i:hover{
     background: #ffb606;
 }
