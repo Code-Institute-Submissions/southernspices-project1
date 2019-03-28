@@ -168,7 +168,7 @@ body{
 }
 
 .fullscreen-video-wrap{
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -184,7 +184,7 @@ body{
 
 .header-content {
     z-index: 1;
-    position: absolute;
+    position: relative;
     color: #D2691E;
     margin-left: auto;
 
@@ -203,12 +203,10 @@ body{
     font-size: 20px;
     padding: 10px;
 }
-
 .header-content i{
     padding-left: 40px;
     margin-bottom: 5px;
     font-size: 40px;
-
 }
 
 .location{
@@ -232,13 +230,13 @@ body{
     text-decoration: none;
     color: #F02C0D;
 }
- @media (min-width: 992px){
-   #location-map {
+
+@media(min-width: 992px){
+   #location-map{
         position: relative;
         background-size: cover;
-        width: 100vw;
+        max-width: 100%;
     }
-}
 /*........................Footer..........*/
 
 .page-footer{
