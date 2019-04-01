@@ -7,7 +7,7 @@ body {
 }
 
 
-/*...........................................Navbar*/
+/*...................Navbar........................*/
 
 .navbar {
     float: left;
@@ -15,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
     height: 90px;
-    background-color: #CA9D1D;
+    background-color: #000;
     opacity: 0.65;
 }
 
@@ -27,7 +27,7 @@ body {
     font-weight: bold;
 }
 
-/*...........................................Image slider*/
+/*..................Image slider.........................*/
 
 .carousel-inner img {
     width: 100%;
@@ -39,10 +39,10 @@ body {
 .carousel-caption {
     position: absolute;
     top: 80%;
-    color: #fff;
+    color:  #800000;
 }
 
-/*..............................................jumbotron*/
+/*....................jumbotron..........................*/
 
 .jumbotron {
     background-color: transparent;
@@ -61,7 +61,7 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
-/*..........................................Menu*/
+/*...................Menu.......................*/
 
 .menu-header {
     color: #ffb606;
@@ -122,16 +122,20 @@ body {
     font-family: 'Pacifico', cursive;
     margin-left: 15px;
     margin-top: 15%;
+    padding-left: 10px;
     padding-bottom: 20px;
 }
 
 .story-p {
     font-size: 1.2em;
-    margin: 40px 0px 40px 0px;
+    color: #777777;
+    margin: 40px 0 40px 0;
     background-color: transparent;
     font-family: 'roboto', 'sans-serif';
-    padding-bottom: 10%;
+    padding-left: 20px;
     line-height: 1.3;
+    
+    
 }
 
 .contact-form {
@@ -139,7 +143,7 @@ body {
 }
 
 
-/*...........................Location & Video.............*/
+/*...........................Location & Video
 
 .container-info {
     position: absolute;
@@ -230,26 +234,63 @@ body {
         max-width: 100%;
     }
 }
+.............*/
 
-/*........................Footer..........*/
+
+/*........................location..........*/
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.containerlocation {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+
+.locationbg-image {
+  background-image: url("/assets/images/locationbgimage.jpg");
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.locationbg-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#location i {
+    font-size: 25px;
+    color: #ffb606;
+    text-decoration: none;
+    padding: 5px;
+}
+/*..............Footer...........*/
 
 .page-footer {
     width: 100%;
-    height: 100px;
+    height: 90px;
     margin: 0;
     padding: 0;
-    background-color: #EDDAB4;
+    background-color:#1a1a1a;
     opacity: 0.65;
     clear: both;
     position: fixed;
     left: 0;
     bottom: 0;
-    color: gray;
     text-align: center;
 }
 
 /*.........................Social links...........*/
-
 .social-icons {
     padding-top: 20px;
 }
@@ -262,8 +303,8 @@ body {
     border-radius: 50%;
     font-size: 20px;
     text-align: center;
-    background: #B2D0AC;
-    color: green;
+    background: #eff1f4;
+    color: #595959;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
