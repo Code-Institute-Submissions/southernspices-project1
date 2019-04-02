@@ -185,7 +185,7 @@ body {
 
 
 .statimage {
-  background-image: url("/assets/images/buffet.jpg");
+  background-image: url("../images/buffet.jpg");
   height: 400px;
   width: 100%;
   background-position: center;
@@ -303,7 +303,7 @@ body {
 }
 
 .locationbg-image {
-  background-image: url("/assets/images/locationbgimage.jpg");
+  background-image: url("../images/locationbgimage.jpg");
   background-color: #cccccc;
   height: 400px;
   background-position: center;
