@@ -4,8 +4,18 @@ html,
 body {
     height: 100%;
     width: 100%;
+    margin: 0;
 }
-
+.p-header {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 200;
+    color: #ffb606;
+    font-family: 'Pacifico', cursive;
+}
+.centered {
+    text-align: center;
+}
 
 /*...................Navbar........................*/
 
@@ -22,11 +32,9 @@ body {
 .navbar .navbar-toggler {
     border: 0;
 }
-
-.navbar li a {
+.navbar li {
     font-weight: bold;
 }
-
 /*..................Image slider.........................*/
 
 .carousel-inner img {
@@ -39,7 +47,8 @@ body {
 .carousel-caption {
     position: absolute;
     top: 80%;
-    color:  #800000;
+    color: #800000;
+    font-family: 'Pacifico', cursive;
 }
 
 /*....................jumbotron..........................*/
@@ -48,26 +57,15 @@ body {
     background-color: transparent;
     font-family: roboto, sans-serif;
     text-align: center;
-    color: #65AB77;
-    font-weight: 400;
+    color: #777777;
+    font-weight: 200;
     margin-bottom: 0;
 }
 
-.jumboheader {
-    text-align: center;
-    padding-bottom: 20px;
-    font-weight: 400;
-    color: #ffb606;
-    font-family: 'Pacifico', cursive;
-}
 
 /*...................Menu.......................*/
 
-.menu-header {
-    color: #ffb606;
-    font-family: 'Pacifico', cursive;
-    padding-bottom: 20px;
-}
+
 
 .menucontainer .row,
 /*.....w3 .......*/
@@ -113,33 +111,88 @@ body {
 
 /*........................Story. & contact..............*/
 
-.container-story-contact {
+.container-story-image {
     padding: 20px;
-}
-
-.page-header h2 {
-    color: #ffb606;
-    font-family: 'Pacifico', cursive;
-    margin-left: 15px;
-    margin-top: 15%;
-    padding-left: 10px;
-    padding-bottom: 20px;
 }
 
 .story-p {
     font-size: 1.2em;
     color: #777777;
-    margin: 40px 0 40px 0;
+    margin: 0;
     background-color: transparent;
     font-family: 'roboto', 'sans-serif';
     padding-left: 20px;
     line-height: 1.3;
-    
-    
+  
+}
+.story-image{
+    margin-top: 30px;
 }
 
-.contact-form {
-    margin-top: 40px;
+
+/*...........Reservation.................*/
+
+.container-reserve {
+   Padding: 50px 0;
+}
+.image-table {
+  padding: 10px;
+  text-align: right;
+  
+}
+.image-food {
+  padding: 10px; 
+  
+}
+.sideimage {
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 600px){
+    .sideimage {
+        display: none;
+    }
+    .booktable {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
+/*.........jumbotron........*/
+
+.caption {
+     font-family: 'Pacifico', cursive;
+}  
+
+.cater-list li {
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    color: #777777;
+   
+}
+.cater-list ul li::before {
+  content: "\2022";
+  color: #A0522D; 
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+ 
+
+/*........ image.........*/
+
+
+.statimage {
+  background-image: url("/assets/images/buffet.jpg");
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
 }
 
 
@@ -260,7 +313,7 @@ body {
   width: 100%;
 }
 
-.locationbg-text {
+.text-overlay {
   text-align: center;
   position: absolute;
   top: 40%;
