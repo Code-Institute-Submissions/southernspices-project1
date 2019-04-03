@@ -6,6 +6,10 @@ body {
     width: 100%;
     margin: 0;
 }
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
 .p-header {
     text-align: center;
     padding-bottom: 20px;
@@ -24,9 +28,11 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    border: none;
     height: 90px;
     background-color: #000;
     opacity: 0.65;
+    
 }
 
 .navbar .navbar-toggler {
@@ -34,8 +40,9 @@ body {
 }
 .navbar li {
     font-weight: bold;
-}
-/*..................Image slider.........................*/
+ }
+
+/*..................Image slider...................*/
 
 .carousel-inner img {
     width: 100%;
@@ -51,7 +58,7 @@ body {
     font-family: 'Pacifico', cursive;
 }
 
-/*....................jumbotron..........................*/
+/*....................Jumbotron...................*/
 
 .jumbotron {
     background-color: transparent;
@@ -64,7 +71,6 @@ body {
 
 
 /*...................Menu.......................*/
-
 
 
 .menucontainer .row,
@@ -102,14 +108,13 @@ body {
     }
 }
 
-
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
     }
 }
 
-/*........................Story. & contact..............*/
+/*........................Story. & Image..............*/
 
 .container-story-image {
     padding: 20px;
@@ -130,34 +135,23 @@ body {
 }
 
 
-/*...........Reservation.................*/
 
-.container-reserve {
-   Padding: 50px 0;
+/*........Catering image.........*/
+
+.container-catering{
+    padding-top: 50px;
 }
-.image-table {
-  padding: 10px;
-  text-align: right;
-  
+.statimage {
+  background-image: url("../images/buffet.jpg");
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
 }
-.image-food {
-  padding: 10px; 
-  
-}
-.sideimage {
-    max-width: 100%;
-    height: auto;
-}
-@media only screen and (max-width: 600px){
-    .sideimage {
-        display: none;
-    }
-    .booktable {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
-}
+
 /*.........jumbotron........*/
 
 .caption {
@@ -178,14 +172,14 @@ body {
   display: inline-block; 
   width: 1em;
   margin-left: -1em;
+  padding-left: 4px;
 }
- 
-
-/*........ image.........*/
 
 
-.statimage {
-  background-image: url("../images/buffet.jpg");
+/*.........Visit image.....*/
+
+.v-image {
+  background-image: url("../images/visitbg.jpg");
   height: 400px;
   width: 100%;
   background-position: center;
@@ -194,107 +188,95 @@ body {
   position: relative;
   
 }
+/*...........Reservation.................*/
 
-
-/*...........................Location & Video
-
-.container-info {
-    position: absolute;
-    font-size: 1rem;
-    line-height: 1.5;
-    overflow: hidden;
-    max-width: 100%;
-    padding: 1rem;
-    margin: 0;
+.container-reserve {
+   Padding: 100px 0;
+}
+.booktable{
+    padding-top: 50px;
+}
+.sideimage {
+    display: table;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 600px){
+    .sideimage {
+        display: none;
+    }
+    .booktable {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+  }
+  
+ @media only screen and (max-width: 991px) and (min-width: 768px){
+     
+ .sideimage img {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 70%;
+}
 }
 
-.v-container {
-    align-items: center;
-    display: flex;
 
+
+/*........Video....
+
+.v-container {
+  position: relative;
+  font-size: 1rem;
+  line-height:1.5;
+  overflow-x: hidden;
+  max-width:100% ;
+  margin: auto;
+  text-align: center;
 }
 
 .fullscreen-video-wrap {
     position: relative;
+    border-style:none;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
-    z-index: 0;
+    z-index: -99;
 }
+
 
 .fullscreen-video-wrap video {
     min-width: 100%;
     min-height: 100%;
 }
-
-.header-content {
-    z-index: 1;
+.video-overlay{
+    background: rgba(0,0,0,0.8);
     position: relative;
-    color: #D2691E;
-    margin-left: auto;
-
-}
-
-.header-content h1 {
-    font-size: 50px;
-    padding: 10px;
-}
-
-.header-content h2 {
-    font-size: 40px;
-    padding: 10px;
-}
-
-.header-content p {
-    font-size: 20px;
-    padding: 10px;
-}
-
-.header-content i {
-    padding-left: 40px;
-    margin-bottom: 5px;
-    font-size: 40px;
-}
-
-.location {
-
-    position: relative;
-    font-size: 13px;
-    font-size: 1.3rem;
-    letter-spacing: 2px;
-    color: #F02C0D;
-    padding: 10px;
-    width: 90%;
-    margin: auto;
-}
-
-.header-content a i {
-    text-decoration: none;
-    color: #F02C0D;
-}
-
-.header-content a h3 {
-    text-decoration: none;
-    color: #F02C0D;
-}
-
-@media(min-width: 992px) {
-    #location-map {
-        position: relative;
-        background-size: cover;
-        max-width: 100%;
+    bottom:20%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height: 1.5;
+    z-index: -98;
     }
-}
-.............*/
-
-
+#videoheader  {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1;
+}   
+....*/
 /*........................location..........*/
-.container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-}
+
+
 .containerlocation {
   width: 100%;
   padding-left: 0;
