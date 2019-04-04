@@ -118,7 +118,7 @@ body {
 /*........................Story. & Image..............*/
 
 .container-story-image {
-    padding: 20px;
+    padding: 0px;
 }
 
 .story-p {
@@ -133,6 +133,8 @@ body {
 }
 .story-image{
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -275,6 +277,7 @@ body {
   z-index: 1;
 }   
 ....*/
+
 /*........................location..........*/
 
 
@@ -320,7 +323,7 @@ body {
     padding-right: 15px;
 }
 .test-container h3{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-weight: 200;
     color: #ffb606;
     font-family: 'Pacifico', cursive;  
