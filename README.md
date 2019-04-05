@@ -16,16 +16,17 @@ The landing page has following categories:
 *	Location with google map.
 *	A footer sections 
 
+### Purpose of website
 
 This website tries to address the needs of the customer to find all the information that they needed to contact the restaurant, while breaking the information simple and easy to follow as possible.
-The business goals of this website are:
+The business goals are:
 
 *	Make the restaurant more popular in Ireland.
 *	Easy Reservation for a dine out.
 *	Awareness about the available catering services.
 	 
 
-The customer goals of this website are:
+The customer goals are:
 
 *	Searching for an Indian Restaurant for a dine out.
 *	Easily available menu and pricing.
@@ -34,25 +35,18 @@ The customer goals of this website are:
 
 ## UX
 
-My goal in the design was to make it as easy as possible to access information on the site while striving for a minimalist design.
+My goal in the design was to make a website with minimal design ,easy to navigate and to include all the necessary information without complicating them.
+.
 *For customers,* I wanted to provide them with a brief overview about the restaurant and the services available in a user friendly design. 
 
 *The ideal client* for this business is the restaurant management who can communicate well about what they need in their website. 
 
-*People* use this website to search for the nearby Indian restaurant,glutein free and vegan friendly for a dine out or any party catering services.
-
-This project is one of the best way to achieve the goals because many restaurant websites have poor UX, some of them doestn’t offer online reservation and online menu and pricing.
-This website is with minimalist design ,easy to navigate ,and provides all the necessary information without complicating them.
+*Visitors of this site* use this website to search for the nearby Indian restaurant,glutein free and vegan friendly for a dine out or any party catering services.
 
 
 
-##### User stories
 
-1.	As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
-2.	As a new visitor to the website, I want learn more about the restaurant, so I can easily connect.
-
-
-##### Technologies Used
+### Technologies Used
 
 *	This project uses HTML and CSS programming languages.
 
@@ -73,17 +67,17 @@ This website is with minimalist design ,easy to navigate ,and provides all the n
 
 	The project uses Popper,js reference Javascript needed for the responsive navbar.
  
-##### Resources
+#### Resources
 
 https://getbootstrap.com/ https://www.w3schools.com/ https://stackoverflow.com/  
 
-#####  Wireframe mockups:
+####  Wireframe mockups:
 
- -Please find paper and pen mockup for the original website design[Southern Spices Home]()
+ -Please find my balsamiq wireframe mockup for the original website design [Southern Spices](https://stephyraju.github.io/southernspices-project1/wireframe/Wireframe.png)
 
-###### Features
+##### Features
 
-This site uses the scrollSpy feature in Bootstrap with an extra JavaScript function and has following sections:
+This site has a static responsive scrolldown page with 7 sections:
 
 **Home-**
      Home section provides an image slider with a welcome note.
@@ -110,13 +104,19 @@ This section features working hours, address with a location map and contact det
  
 
 
-###### Features Left to Implement
+##### Features Left to Implement
 
 * An online order and delivery system.
 * Customer Rating and a complaint popup screen.
 
 
+### Testing
 
+Throuhout the building process,this was tested using devTools, and testing responsiveness using the device toolbar.
+
+The testing was done whenever codes and styles are added to the site.
+
+And also tested in mobile,tablet and desktop with different browsers.
 
 #### Deployment
 
@@ -137,9 +137,7 @@ All photos were taken from Pexels and shutter a stock image library.
 
 **Code**
 
-* CSS code for image sliders page originally taken from Youtube Video Image slider Bootstrap4 courosel and then edited.
-* Css style for text on top of image was taken from -
-*Acknowledgements*
+* CSS styles for image sliders page originally taken from Youtube Video Image slider Bootstrap4 courosel and then edited.
 
 
 ###### Disclaimer
