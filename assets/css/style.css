@@ -6,7 +6,8 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-}
+    overflow-x: hidden;
+   }
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -41,7 +42,7 @@ body {
  }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-weight: 400;
+    font-weight: bold;
     text-decoration: none;
     color: #ffb606;
     transition: all .3s ease-in-out;
@@ -57,6 +58,19 @@ body {
 .navbar-dark .navbar-nav .active>.nav-link:hover{
     color:#800000;
 }
+@media(max-width: 767.98px){
+     .navbar-dark .navbar-nav .nav-link {
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+      }
+   .navbar-dark .navbar-nav .active>.nav-link{
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+   }   
+}
+
 /*..................Image slider...................*/
 
 .carousel-inner img {
@@ -298,10 +312,8 @@ body {
     height: 90px;
     margin: 0;
     padding: 0;
-    background-color:#1a1a1a;
-    opacity: 0.65;
+    background-color:#000;
     clear: both;
-    position: fixed;
     left: 0;
     bottom: 0;
     text-align: center;
@@ -313,7 +325,7 @@ body {
 }
 
 .social-icons li a i {
-    display: inline block;
+    display: inline-block;
     width: 30px;
     height: 30px;
     padding: 10px 0;
