@@ -50,25 +50,26 @@ body {
     -webkit-transition: all .3s ease-in-out;
  }
 .navbar-dark .navbar-nav .nav-link:hover{
-    color:#800000;
+    color:#e60000;
 }
 .navbar-dark .navbar-nav .active>.nav-link{
     color: #ffb606;
 }
 .navbar-dark .navbar-nav .active>.nav-link:hover{
-    color:#800000;
+    color:#e60000;
 }
 @media(max-width: 767.98px){
      .navbar-dark .navbar-nav .nav-link {
-        color: #000;
+        color: #e60000;
         font-size: 16px;
         font-weight: bold;
       }
    .navbar-dark .navbar-nav .active>.nav-link{
-        color: #000;
+        color: #e60000;
         font-size: 16px;
         font-weight: bold;
-   }   
+   } 
+  
 }
 
 /*..................Image slider...................*/
@@ -224,16 +225,19 @@ body {
 .container-reserve {
    Padding: 100px 0;
 }
-.booktable{
+.booktable {
     padding-top: 50px;
-}
-.sideimage {
-    display: table;
-    width: 100%;
-    height: auto;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
+.sideimage {
+    display: table;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+ }
 @media only screen and (max-width: 600px){
     .sideimage {
         display: none;
@@ -244,7 +248,7 @@ body {
     }
   }
   
- @media only screen and (max-width: 991px) and (min-width: 768px){
+ @media only screen and (max-width: 991.98px) and (min-width: 768px){
      
  .sideimage img {
     display: table;
@@ -252,6 +256,11 @@ body {
     margin-right: auto;
     width: 70%;
     height: 70%;
+    padding-top: 30px;
+}
+.booktable {
+    padding-top: 0;
+    width: 90%;
 }
 }
 
