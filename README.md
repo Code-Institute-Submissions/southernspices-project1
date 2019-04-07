@@ -1,6 +1,6 @@
 # Southern Spices Restaurant Website
 
- ###### Stream One Project: User-Centric Frontend Development - Code Institute
+ ##### Stream One Project: User-Centric Frontend Development - Code Institute
  
 This is my website for an Indian Restaurant based in Athlone, Ireland. 
 The landing page has following categories:
@@ -19,6 +19,7 @@ The landing page has following categories:
 ### Purpose of website
 
 This website tries to address the needs of the customer to find all the information that they needed to contact the restaurant, while breaking the information simple and easy to follow as possible.
+
 The business goals are:
 
 *	Make the restaurant more popular in Ireland.
@@ -43,9 +44,24 @@ My goal in the design was to make a website with minimal design ,easy to navigat
 
 *Visitors of this site* use this website to search for the nearby Indian restaurant,glutein free and vegan friendly for a dine out or any party catering services.
 
+##### User Story
+ *As a restaurant customer-*
+ - I want to easly navigate through the site. 
+ - I want to find the menu and price list and to download easily.
+ - I want to learn more about the restaurant.
+ - I want to reserve a table.
+ - I want to check the reviews of others.
+ - I want to book for a catering service.
+ 
+*For Clients*
+- I want a simple elegant and catchy Site for my restaurant.
+- The site must be easy to navigate,find the necessary details and sevices available without any complication.
+- A detailed menu including price list.
+- A brief about restaurant.
+- The site should be able to provide reservation.
+- I want customer to find the location and working hours esily and customer could reach us easily.
 
-
-
+ 
 ### Technologies Used
 
 *	This project uses HTML and CSS programming languages.
@@ -73,7 +89,7 @@ https://getbootstrap.com/ https://www.w3schools.com/ https://stackoverflow.com/
 
 ####  Wireframe mockups:
 
- -Please find my balsamiq wireframe mockup for the original website design [Southern Spices](https://stephyraju.github.io/southernspices-project1/wireframe/Wireframe.png)
+ -Please find my balsamiq wireframe mockup for the original website design [Southern Spices](https://stephyraju.github.io/southernspices-project1/wireframe/wireframe.pdf)
 
 ##### Features
 
@@ -102,12 +118,15 @@ This section has 3 customers review about the restaurant.
 
 This section features working hours, address with a location map and contact details .
  
-
+**Footer-**
+Footer has the social media icons and which will be linked to the correspondant medias in future.
 
 ##### Features Left to Implement
 
 * An online order and delivery system.
 * Customer Rating and a complaint popup screen.
+* A transparent logo for the website 
+
 
 
 ### Testing
@@ -120,7 +139,7 @@ And also tested in mobile,tablet and desktop with different browsers.
 
 #### Deployment
 
-To deploy my project I used Cloud9 workspace to my Github repository named southernspices project 1 via the command line.
+To deploy my project I used Cloud9 workspace to my Github repository named southernspices-project1 via the command line.
 This project was regularly commiting and pushed to GitHub repository using command line.
 Please find my website published link here https://stephyraju.github.io/southernspices-project1/
 
@@ -129,18 +148,18 @@ Please find my website published link here https://stephyraju.github.io/southern
 
 **Content**
 
-All content in the "Welcome ,Story and menu sections in this website were written by me.
+All content in the "Welcome ,Story and menu sections in this website were written by me.Testimonials contents are taken from google and edited by me.
 
 **Media**
 
-All photos were taken from Pexels and shutter a stock image library. 
+All photos and pictures used in this site were taken from Pexels and shutter a stock image library. 
 
 **Code**
 
 * CSS styles for image sliders page originally taken from Youtube Video Image slider Bootstrap4 courosel and then edited.
 
 
-###### Disclaimer
+##### Disclaimer
 
 The content of this Website is for educational purposes only.
 

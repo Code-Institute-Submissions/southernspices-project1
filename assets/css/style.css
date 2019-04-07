@@ -131,7 +131,9 @@ body {
     text-decoration: none;
     color: green;
 }
-
+.menucontent a:hover{
+    color: #e60000 ;
+}
 @media screen and (max-width: 900px) {
     .column {
         width: 50%;
