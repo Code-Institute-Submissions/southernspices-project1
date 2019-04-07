@@ -137,6 +137,8 @@ The testing was done whenever codes and styles are added to the site.
 
 And also tested in mobile,tablet and desktop with different browsers.
 
+To check the validity of the website code, developer used W3C CSS Validation Service and W3C Markup Validation Service.
+
 #### Deployment
 
 To deploy my project I used Cloud9 workspace to my Github repository named southernspices-project1 via the command line.
@@ -148,7 +150,7 @@ Please find my website published link here https://stephyraju.github.io/southern
 
 **Content**
 
-All content in the "Welcome ,Story and menu sections in this website were written by me.Testimonials contents are taken from google and edited by me.
+All content in the Welcome,Story and menu sections in this website were written by me.Testimonials contents are taken from google and edited by me.
 
 **Media**
 
