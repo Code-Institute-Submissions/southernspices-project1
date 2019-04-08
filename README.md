@@ -157,7 +157,7 @@ Please find my website published link here https://stephyraju.github.io/southern
 
 **Content**
 
-All content in the Welcome,Story and menu sections in this website were written by me.Testimonials contents are taken from google and edited by me.
+All content in the Welcome,Story and menu sections in this website were written by me. Testimonials contents are taken from google and edited by me.
 
 **Media**
 
