@@ -37,7 +37,7 @@ The customer goals are:
 ## UX
 
 My goal in the design was to make a website with minimal design ,easy to navigate and to include all the necessary information without complicating them.
-.
+
 *For customers,* I wanted to provide a brief overview about the restaurant and the services available in a user friendly design. 
 
 *The ideal client* for this business is the restaurant management who can communicate well about what they need in their website. 
