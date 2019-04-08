@@ -39,45 +39,6 @@ body {
     opacity: 0.65;
     text-transform: uppercase;
 }
-.navbar-brand{
-    margin-right: 0;
-}
-.navbar .navbar-toggler {
-    border: 0;
-}
-.navbar-dark .navbar-nav .nav-link {
-     color: #ffb606;
-     font-weight: bold;
-     font-size: 17px;
-     background-color: #000; 
-     opacity: 0.85;
-     transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .35s ease-in-out;
-}
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: #e60000;
-}
-@media(max-width: 767.98px) {
-    .navbar-brand {
-        width: 70%;
-    }
-   }
-
-/*...................Navbar..................
-
-.navbar {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border: none;
-    height: 70px;
-    text-transform: uppercase;
-    background-color: #000;
-    opacity: 0.65;
-
-}
 
 .navbar-brand {
     margin-right: 0;
@@ -88,11 +49,11 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-weight: bold;
-    text-decoration: none;
     color: #ffb606;
+    font-weight: bold;
+    font-size: 17px;
     background-color: #000;
-    opacity: 0.65;
+    opacity: 0.85;
     transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
@@ -103,21 +64,13 @@ body {
     color: #e60000;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link {
-    color: #ffb606;
-}
-
-.navbar-dark .navbar-nav .active>.nav-link:hover {
-    color: #e60000;
-}
-
-@media(max-width: 991.98px) {
-    
+@media(max-width: 767.98px) {
     .navbar-brand {
         width: 70%;
     }
-   }
-........*/
+}
+
+
 /*..................Image slider...................*/
 
 .carousel-inner img {
@@ -133,7 +86,12 @@ body {
     color: #800000;
     font-family: 'Pacifico', cursive;
 }
-
+@media only screen and (max-width: 600px){
+    .carousel-caption {
+        position: absolute;
+        top : 50%;
+    }
+}
 /*....................Jumbotron...................*/
 
 .jumbotron {
@@ -148,7 +106,9 @@ body {
 
 /*...................Menu.......................*/
 
-.menucontainer .row, /*original code W3 schools*/ 
+.menucontainer .row,
+/*original code W3 schools*/
+
 .row>.column {
     padding: 8px;
 }
