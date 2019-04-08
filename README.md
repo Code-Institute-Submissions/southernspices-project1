@@ -10,11 +10,11 @@ The landing page has following categories:
 *	A welcome note.
 *	Menu section.
 *	Story section.
-*	Catering Services
-*	Reservation
-*	Testimonials
+*	Catering Services.
+*	Reservation.
+*	Testimonials.
 *	Location with google map.
-*	A footer sections 
+*	A footer sections.
 
 ### Purpose of website
 
@@ -38,7 +38,7 @@ The customer goals are:
 
 My goal in the design was to make a website with minimal design ,easy to navigate and to include all the necessary information without complicating them.
 .
-*For customers,* I wanted to provide them with a brief overview about the restaurant and the services available in a user friendly design. 
+*For customers,* I wanted to provide a brief overview about the restaurant and the services available in a user friendly design. 
 
 *The ideal client* for this business is the restaurant management who can communicate well about what they need in their website. 
 
@@ -85,7 +85,9 @@ My goal in the design was to make a website with minimal design ,easy to navigat
  
 #### Resources
 
-https://getbootstrap.com/ https://www.w3schools.com/ https://stackoverflow.com/  
+* https://getbootstrap.com/ 
+* https://www.w3schools.com/
+* https://stackoverflow.com/  
 
 ####  Wireframe mockups:
 
@@ -108,7 +110,7 @@ This site has a static responsive scrolldown page with 7 sections:
 This section has a background image and a button on top to make easy reservations for catering and the list of available catering services.
 
 **Reservation-**
-This section has an easy to follow booking system with two pictures on both sides.The bottom of the form has a reservation button**Location-
+This section has an easy to follow booking system with two pictures on both sides.The bottom of the form has a reservation button.
 
 **Testimonials-**
 
