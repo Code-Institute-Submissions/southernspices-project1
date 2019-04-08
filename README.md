@@ -78,7 +78,7 @@ My goal in the design was to make a website with minimal design ,easy to navigat
 	The project uses Google fonts to style the website fonts.
 *	jQuery
 
-	The project uses jQuery to reference Javascript needed for the responsive navbar, Vimeo video and Fancybox gallery modal.
+	The project uses jQuery to reference Javascript needed for the responsive navbar.
 *	Popper.js
 
 	The project uses Popper,js reference Javascript needed for the responsive navbar.
@@ -98,18 +98,23 @@ My goal in the design was to make a website with minimal design ,easy to navigat
 This site has a static responsive scrolldown page with 7 sections:
 
 **Home-**
-     Home section provides an image slider with a welcome note.
+
+Home section provides an image slider with a welcome note.
      
 **Menu-**
-    Menu section has three different picture with three different menu which opens in another page and its in Pdf format and easy to download.
+
+Menu section has three different picture with three different menu which opens in another page and its in Pdf format and easy to download.
 
  **Story-**
-  Our story section provides a brief note about the restaurant and a picture of the restaurant.
+ 
+Our story section provides a brief note about the restaurant and a picture of the restaurant.
 
 **Catering-**
+
 This section has a background image and a button on top to make easy reservations for catering and the list of available catering services.
 
 **Reservation-**
+
 This section has an easy to follow booking system with two pictures on both sides.The bottom of the form has a reservation button.
 
 **Testimonials-**
@@ -119,8 +124,9 @@ This section has 3 customers review about the restaurant.
 **Location-**
 
 This section features working hours, address with a location map and contact details .
- 
+
 **Footer-**
+
 Footer has the social media icons and which will be linked to the correspondant medias in future.
 
 ##### Features Left to Implement
