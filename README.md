@@ -44,7 +44,7 @@ My goal in the design was to make a website with minimal design ,easy to navigat
 
 *Visitors of this site* use this website to search for the nearby Indian restaurant,glutein free and vegan friendly for a dine out or any party catering services.
 
-##### User Story
+#### User Story
  *As a restaurant customer-*
  - I want to easly navigate through the site. 
  - I want to find the menu and price list and to download easily.
@@ -83,17 +83,17 @@ My goal in the design was to make a website with minimal design ,easy to navigat
 
 	The project uses Popper,js reference Javascript needed for the responsive navbar.
  
-#### Resources
+### Resources
 
 * https://getbootstrap.com/ 
 * https://www.w3schools.com/
 * https://stackoverflow.com/  
 
-####  Wireframe mockups:
+###  Wireframe mockups:
 
  -Please find my balsamiq wireframe mockup for the original website design [Southern Spices](https://stephyraju.github.io/southernspices-project1/wireframe/wireframe.pdf)
 
-#### Features
+### Features
 
 This site has a static responsive scrolldown page with 7 sections:
 
@@ -129,7 +129,7 @@ This section features working hours, address with a location map and contact det
 
 Footer has the social media icons and which will be linked to the correspondant medias in future.
 
-#### Features Left to Implement
+### Features Left to Implement
 
 * An online order and delivery system.
 * Customer Rating and a complaint popup screen.
@@ -146,7 +146,7 @@ And also tested in mobile,tablet and desktop with different browsers.
 
 To check the validity of the website code, developer used W3C CSS Validation Service and W3C Markup Validation Service.
 
-#### Deployment
+### Deployment
 
 To deploy my project I used Cloud9 workspace to my Github repository named southernspices-project1 via the command line.
 This project was regularly commiting and pushed to GitHub repository using command line.
@@ -168,7 +168,7 @@ All photos and pictures used in this site were taken from Pexels and shutter a s
 * CSS styles for image sliders page originally taken from Youtube Video Image slider Bootstrap4 courosel and then edited.
 
 
-##### Disclaimer
+#### Disclaimer
 
 The content of this Website is for educational purposes only.
 
