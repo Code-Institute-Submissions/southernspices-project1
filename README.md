@@ -128,7 +128,6 @@ Footer has the social media icons and which will be linked to the correspondant 
 * A transparent logo for the website 
 
 
-
 ### Testing
 
 Throuhout the building process,this was tested using devTools, and testing responsiveness using the device toolbar.
