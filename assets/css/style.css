@@ -87,6 +87,10 @@ body {
     .navbar-brand {
         width: 70%;
     }
+    .navbar-fixed-top{
+    position: relative;
+    top: auto;
+    }
 }
 
 /*..................Image slider...................*/
