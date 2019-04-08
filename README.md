@@ -93,7 +93,7 @@ My goal in the design was to make a website with minimal design ,easy to navigat
 
  -Please find my balsamiq wireframe mockup for the original website design [Southern Spices](https://stephyraju.github.io/southernspices-project1/wireframe/wireframe.pdf)
 
-##### Features
+#### Features
 
 This site has a static responsive scrolldown page with 7 sections:
 
@@ -129,7 +129,7 @@ This section features working hours, address with a location map and contact det
 
 Footer has the social media icons and which will be linked to the correspondant medias in future.
 
-##### Features Left to Implement
+#### Features Left to Implement
 
 * An online order and delivery system.
 * Customer Rating and a complaint popup screen.
